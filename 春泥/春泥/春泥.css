@@ -1,0 +1,210 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.piapp{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+/* 内容Star */
+.out-container,.content-container{
+    width: 100%;
+    height: 32rem;
+}
+
+.out-container{
+    position: relative;
+    overflow: hidden;
+}
+
+.inner-container {
+    position: absolute; left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.inner-container::-webkit-scrollbar {
+    display: noNe;
+}
+
+.contents .split-bar{
+    width: 100%;
+    height: 0.33333333333rem;
+    background-color: rgb(244, 244, 244);
+}
+
+.contents .content-top{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.contents .content-top .content-top-left{
+    margin: 0 0.5rem;
+}
+
+.contents .content-top img{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.contents .content-top span{
+    color: black;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.contents .content-top .content-top-center{
+    flex: 1;
+    color: rgba(0, 0, 0, 0);
+    user-select: none;
+}
+
+.contents .content-top a{
+    font-size: 0.65rem;
+    color: rgb(252, 113, 136);
+    text-decoration: none;
+}
+
+.contents .content-top svg{
+    color: #cccccc;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.contents .content-title{
+    margin: 0.25rem 0.5rem;
+}
+
+.contents .content-title p{
+    margin: 0;padding: 0;
+    font-size: 0.75rem;
+}
+
+.contents .content-video video{
+    width: 100%;
+    outline: none;
+    max-height: 15rem;
+}
+
+.contents .content-tag{
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.contents .content-tag .content-tag-left{
+    height: 1rem;
+    font-size: 0.5rem;
+    display: inline-block;
+    background-color: rgb(244, 244, 244);
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    margin-left: 0.5rem;
+    color: rgb(252, 113, 136);
+}
+
+.contents .content-tag .content-tag-left a{
+    color: black !important;
+}
+
+.contents .content-tag .content-tag-center{
+    flex: 1;
+    color: rgba(0, 0, 0, 0);
+    user-select: none;
+}
+
+.contents .content-tag .content-tag-right{
+    height: 1rem;
+    font-size: 0.5rem;
+    display: inline-block;
+    background-color:rgb(244,244,244);
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.contents .content-tag .content-tag-right:hover{
+    color:rgb(252, 113, 136);
+}
+
+.contents .content-super{
+    margin: 0 0.5rem;
+    border-radius: 0.15rem;
+    background-color: rgb(244,244,244);
+}
+
+.contents .content-super .super-man{
+    display: flex;
+    align-items: center;
+    height: 1.25rem;
+}
+
+.contents .content-super .super-man img{
+    height: 1.25rem;
+    width: 1.25rem;
+    border-radius: 1.25rem;
+    margin: 0 0.5rem;
+}
+
+.contents .content-super .super-man .name{
+    font-size: 0.5rem;
+}
+
+.contents .content-super .super-man .center{
+    flex: 1;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    user-select: none;
+}
+
+.contents .content-super .super-man .like{
+    font-size: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.contents .content-super .super-man .like:hover{
+    color: rgb(252, 113, 136);
+}
+
+.contents .content-super .super-man-content{
+    font-size: 0.6rem;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+}
+
+.contents .content-footer{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents .content-footer div{
+    margin: 0 0.5rem;
+    font-size: 0.7rem;
+    flex: 1;
+}
+
+.contents .content-footer div svg,span{
+    cursor: pointer;
+}
+
+.contents .content-footer div:hover{
+    color: rgb(253, 70, 101);
+}
+/* 内容End */
