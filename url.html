@@ -81,18 +81,18 @@
       <form>
       <h5 class="card-title">输入你的长链接：</h5>
       <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="示例: https://example.com/path?key=urlEncodedValue" id="text">
+        <input type="text" class="form-control" placeholder="示例: https://example.com/" id="text">
         <div class="input-group-append">
           <button class="btn btn-primary" type="submit" onclick='shorturl()' id="searchbtn">缩短</button>
         </div>
       </div>    
-      <div class="card-text">
-        <!-- <a href="https://github.com/###GITHUB_REPO###/" target="_self">Fork me on GitHub</a> -->
-      </div>
-      <p id="notice">###DEMO_NOTICE###</p>             
+      <!-- <div class="card-text">
+         <a href="https://github.com/###GITHUB_REPO###/" target="_self">Fork me on GitHub</a>
+      </div>  -->
+      <p id="notice">短链接随时可能失效，若想要长时间使用请输入密码</p>     
       <p>
-      <input id="key" type="text" style="background-color:transparent;border:0;" />
-      <input id="password" type="password" style="background-color:transparent;border:0;" />
+      <input id="key" type="text" placeholder="key" style="background-color:transparent;border:0;" />
+      <input id="password" type="password" placeholder="password"style="background-color:transparent;border:0;" />
       </p>
       </form>
     </div>
